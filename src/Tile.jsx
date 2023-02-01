@@ -4,8 +4,12 @@ function Tile(props) {
 
     
   function handleClick(value) {
+    if (value === "finished") {
+      console.log("finished")
+    } else {
     props.addClick();
     props.checkNeighbours(value);
+    }
   }
 
     return (
