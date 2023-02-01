@@ -1,0 +1,30 @@
+.gameboard {
+    margin: 2% 30%;
+    text-align: center;
+    border: 5px solid #fff;
+    border-radius: 1.5em;
+    box-shadow: 0 0 2px 2px #999;
+    background-color: #fff;
+}
+
+.image-block {
+    display: inline-block;
+    width: 33%;
+    height: 33%;
+}
+
+.image {
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    padding-left: 5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+
+body {
+    background-color: #FFE7CC;
+background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+}
